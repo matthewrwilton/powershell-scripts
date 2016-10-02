@@ -6,4 +6,4 @@ Rebase a feature branch onto the latest version of another branch. Switches to t
 
 **Example:** git-pull-and-rebase dev -i
 
-**Notes:** Relies on "git branch" prefixing the current branch with "* ". Additionally, because I am lazy, I will use a version of this that has the branch parameter hardcoded as the main branch.
+**Notes:** Relies on "git branch" prefixing the current branch with "* ". Additionally, because I am lazy, I use a customised version of this that has the branch parameter hardcoded.
