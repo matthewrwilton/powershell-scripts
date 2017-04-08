@@ -14,6 +14,12 @@ Removes all .orig files (merge originals) that show up in git status. Used when 
 
 **Usage:** git-rm-origs [-Confirm (Optional)]
 
+### git-update-repos
+
+Loops through a configured list of repos and branches to pull the latest changes from origin. Will not update a repo if there pending changes.
+
+**Usage:** git-update-repos
+
 ### kill-iis-express
 
 Kills the IIS Express process.
