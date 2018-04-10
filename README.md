@@ -2,7 +2,7 @@
 
 Rebase a feature branch onto the latest version of another branch. Switches to the given branch, pulls from origin, switches back to your current branch and rebases on the given branch. Can specify -i to perform an interactive rebase.
 
-**Usage:** git-pull-and-rebase [branch] [-i (Optional)]
+**Usage:** `git-pull-and-rebase [branch] [-i (Optional)]`
 
 **Example:** git-pull-and-rebase dev -i
 
@@ -12,14 +12,20 @@ Rebase a feature branch onto the latest version of another branch. Switches to t
 
 Removes all .orig files (merge originals) that show up in git status. Used when these files are not automatically cleaned up after a merge. Can prompt before removing files.
 
-**Usage:** git-rm-origs [-Confirm (Optional)]
+**Usage:** `git-rm-origs [-Confirm (Optional)]`
 
 ### git-update-repos
 
 Loops through a configured list of repos and branches to pull the latest changes from origin. Will not update a repo if there pending changes.
 
-**Usage:** git-update-repos
+**Usage:** `git-update-repos`
 
 ### kill-iis-express
 
 Kills the IIS Express process.
+
+### mfa-check
+
+Outputs all AWS users that have console access (a login password), but no MFA device setup.
+
+**Usage:** `mfa-check [aws profile name]`
